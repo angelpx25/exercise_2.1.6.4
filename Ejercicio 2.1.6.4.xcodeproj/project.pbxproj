@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D462AF1CDD229E00A78500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D462AE1CDD229E00A78500 /* AppDelegate.swift */; };
+		15D462B11CDD229E00A78500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D462B01CDD229E00A78500 /* ViewController.swift */; };
+		15D462B41CDD229E00A78500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D462B21CDD229E00A78500 /* Main.storyboard */; };
+		15D462B61CDD229E00A78500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D462B51CDD229E00A78500 /* Assets.xcassets */; };
+		15D462B91CDD229E00A78500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D462B71CDD229E00A78500 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15D462AB1CDD229E00A78500 /* Ejercicio 2.1.6.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicio 2.1.6.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D462AE1CDD229E00A78500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15D462B01CDD229E00A78500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15D462B31CDD229E00A78500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15D462B51CDD229E00A78500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D462B81CDD229E00A78500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15D462BA1CDD229E00A78500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D462A81CDD229E00A78500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D462A21CDD229E00A78500 = {
+			isa = PBXGroup;
+			children = (
+				15D462AD1CDD229E00A78500 /* Ejercicio 2.1.6.4 */,
+				15D462AC1CDD229E00A78500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15D462AC1CDD229E00A78500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D462AB1CDD229E00A78500 /* Ejercicio 2.1.6.4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D462AD1CDD229E00A78500 /* Ejercicio 2.1.6.4 */ = {
+			isa = PBXGroup;
+			children = (
+				15D462AE1CDD229E00A78500 /* AppDelegate.swift */,
+				15D462B01CDD229E00A78500 /* ViewController.swift */,
+				15D462B21CDD229E00A78500 /* Main.storyboard */,
+				15D462B51CDD229E00A78500 /* Assets.xcassets */,
+				15D462B71CDD229E00A78500 /* LaunchScreen.storyboard */,
+				15D462BA1CDD229E00A78500 /* Info.plist */,
+			);
+			path = "Ejercicio 2.1.6.4";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D462AA1CDD229E00A78500 /* Ejercicio 2.1.6.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D462BD1CDD229E00A78500 /* Build configuration list for PBXNativeTarget "Ejercicio 2.1.6.4" */;
+			buildPhases = (
+				15D462A71CDD229E00A78500 /* Sources */,
+				15D462A81CDD229E00A78500 /* Frameworks */,
+				15D462A91CDD229E00A78500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ejercicio 2.1.6.4";
+			productName = "Ejercicio 2.1.6.4";
+			productReference = 15D462AB1CDD229E00A78500 /* Ejercicio 2.1.6.4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D462A31CDD229E00A78500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NextU;
+				TargetAttributes = {
+					15D462AA1CDD229E00A78500 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MNKJLG78V6;
+					};
+				};
+			};
+			buildConfigurationList = 15D462A61CDD229E00A78500 /* Build configuration list for PBXProject "Ejercicio 2.1.6.4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D462A21CDD229E00A78500;
+			productRefGroup = 15D462AC1CDD229E00A78500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D462AA1CDD229E00A78500 /* Ejercicio 2.1.6.4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D462A91CDD229E00A78500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D462B91CDD229E00A78500 /* LaunchScreen.storyboard in Resources */,
+				15D462B61CDD229E00A78500 /* Assets.xcassets in Resources */,
+				15D462B41CDD229E00A78500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D462A71CDD229E00A78500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D462B11CDD229E00A78500 /* ViewController.swift in Sources */,
+				15D462AF1CDD229E00A78500 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15D462B21CDD229E00A78500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D462B31CDD229E00A78500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15D462B71CDD229E00A78500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D462B81CDD229E00A78500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D462BB1CDD229E00A78500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15D462BC1CDD229E00A78500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D462BE1CDD229E00A78500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Ejercicio 2.1.6.4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextu.iosdeveloper.Ejercicio-2-1-6-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15D462BF1CDD229E00A78500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Ejercicio 2.1.6.4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextu.iosdeveloper.Ejercicio-2-1-6-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D462A61CDD229E00A78500 /* Build configuration list for PBXProject "Ejercicio 2.1.6.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D462BB1CDD229E00A78500 /* Debug */,
+				15D462BC1CDD229E00A78500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D462BD1CDD229E00A78500 /* Build configuration list for PBXNativeTarget "Ejercicio 2.1.6.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D462BE1CDD229E00A78500 /* Debug */,
+				15D462BF1CDD229E00A78500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D462A31CDD229E00A78500 /* Project object */;
+}
